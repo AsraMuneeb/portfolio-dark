@@ -1,0 +1,112 @@
+@font-face{
+    font-family: font1;
+    src: url(../assets/fonts/Lobster-Regular.ttf);
+  }
+  
+@font-face{
+font-family: font2;
+src: url(../assets/fonts/SofadiOne-Regular.ttf);
+}
+
+@font-face{
+    font-family: font3;
+    src:url(../assets/fonts/Raleway-Medium.ttf);
+    }
+
+.hero-section {
+    height: 70%;
+    width: 80%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    position: absolute;
+    top: 20%;
+    position: relative;
+
+}
+
+.content{
+    padding-top: 10%;
+    padding-left: 7%;
+    max-width: 60% ;
+}
+
+.hero-title {
+    font-size: 5vw;
+    font-weight: 500;
+    width: 84%;
+    display:flex;
+    white-space: break-spaces;
+    font-family: font1;
+    padding: 0;
+}
+
+.hero-subtitle {
+font-size: 1.2vw;
+margin-bottom: 30px;
+font-family: font3;
+text-align: justify;
+width: 80%;
+
+}
+
+.btn-custom {
+margin-top: 0;
+background-color: transparent;
+border-color: #fff;
+border-radius: 10px;
+color: #ffffff;
+font-size: 1rem;
+transition: background-color 0.3s;
+}
+
+.btn-custom:hover {
+color: #f28ea8;
+border-color: #f28ea8;
+}
+
+.image{
+    display: flex;
+    justify-items: center;
+    max-width: 40% ;
+}
+
+.about-section .row{
+    position: relative;
+}
+
+
+
+.image2{
+    width: 100%;
+    height: 100%;
+    animation-name: img;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    transform: skew(-20deg);
+
+}
+
+@keyframes img{
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }    
+}
+
+.name{
+    width: 0ch;
+    color: #eaadb5;
+    border-right: 4px solid white;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+    animation: typing 4s steps(10, end) infinite forwards;
+}
+
+@keyframes typing {
+    0%{width: 0ch;}
+    50%{width: 11ch;}
+}

@@ -1,0 +1,226 @@
+@font-face{
+    font-family: font1;
+    src: url(../assets/fonts/Lobster-Regular.ttf);
+  }
+  
+@font-face{
+font-family: font2;
+src: url(../assets/fonts/SofadiOne-Regular.ttf);
+}
+
+@font-face{
+    font-family: font3;
+    src:url(../assets/fonts/Raleway-Medium.ttf);
+    }
+
+.contact-section{
+    max-width: 100% !important;
+    height: 100%;
+    position: relative;
+    margin:0;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+
+}
+
+.row-contact{
+    width: 80%;
+    height: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 3%;
+}
+
+.col-form{
+    max-width: 100% ;
+    height: 100%;
+}
+
+.gif3{
+    width: 80%;
+    height: 90%;
+    position: absolute;
+    top:20%;
+    right:6%;
+}
+
+.col-gif{
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+.col-gif h1{
+  font-family: font1;
+  font-size: 5vw;
+  color: #eaadb5;
+  padding-left: 10%;
+}
+
+.col-gif p{
+  padding-left: 10%;
+  color: white;
+  font-family: font3;
+  font-size: 1.1vw;
+  text-align: justify;
+}
+
+.contact-form {
+    max-width: 70%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  text-align: left;
+  width: 100%;
+  }
+  
+
+  
+  input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #f3eff0;
+    font-size: 1rem;
+    font-family: font3;
+    background-color: #171025cf;
+    color: rgb(243, 238, 238);
+  }
+  
+  button {
+    padding: 12px 30px;
+    background-color: #171025cf;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border: 2px solid rgb(247, 243, 243);
+  }
+  
+  button:hover {
+    background-color: rgb(224, 140, 151);
+    border-color: rgb(224, 140, 151);
+  }
+
+  ::placeholder{
+    color: rgba(255, 255, 255, 0.756);
+  }
+
+  .footer{
+    width: 100%;
+    height: 10%;
+    position:absolute;
+    /* border-top-right-radius: 30px;
+    border-top-left-radius: 30px; */
+    border-bottom: none;
+    border-top: 2px solid rgba(255, 255, 255, 0.694);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .info{
+    height: 100%;
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 3%;
+  }
+
+  .logos{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 5%;
+  }
+
+  .logos img{
+    width: 15%;
+    height: 40%;
+  }
+
+.mail, .phone{
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.mail img, .phone img{
+  height: 40%;
+  width: 10%;
+}
+
+.mail p, .phone p{
+  height: 40%;
+  width: 70%;
+  color: white;
+  font-family: font3;
+  font-size: 1.1vw;
+  padding: 1px;
+  margin:0;
+}
+
+.thank-you-card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) translateY(-100px); /* Start above the view */
+  background-color: rgb(255, 255, 255);
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  z-index: 100;
+  opacity: 0; /* Initially hidden */
+  transition: transform 0.5s ease, opacity 0.5s ease; /* Slide and fade transition */
+  height: 30%;
+  width:  30%;
+}
+
+.thank-you-card.show {
+  transform: translate(-50%, -50%) translateY(0); /* Slide down to the center */
+  opacity: 1; /* Fully visible */
+}
+
+.thank-you-card.hidden {
+  transform: translate(-50%, -50%) translateY(-100px); /* Slide back up */
+  opacity: 0; /* Fade out */
+}
+
+
+.contact-section {
+  position: relative;
+  min-height: 400px;
+}
+
+.contact-form {
+  position: relative;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+}
+
+.thank-you-card img{
+  width: 35%;
+  height: 70%;
+}
+
+.thank-you-card p{
+  font-family: font3;
+}
