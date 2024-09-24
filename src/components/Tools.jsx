@@ -24,7 +24,6 @@ const Tools = () => {
         <img src={circle1} className='circle1' alt="" />
         <img src={sqr} className='sqr' alt="" />
         <img src={cross2} className='cross2' alt="" />
-        {/* <img src={dots} className='dots1' alt="" /> */}
         <img src={circle2} className='circle2' alt="" />
         <Row className='title'><h1>Technical <br />Skills</h1></Row>
         <Row className='row1'>
