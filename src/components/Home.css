@@ -20,24 +20,57 @@ src: url(../assets/fonts/SofadiOne-Regular.ttf);
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    flex-direction: column;
-    position: absolute;
+    flex-direction: row;
+    flex-flow: row;
     top: 20%;
     position: relative;
+}
 
+@media (max-width: 700px) {
+    .hero-section{
+        flex-direction: column;
+        flex-flow: column;
+        height: 70%;
+        width: 70%;
+
+    }
+    .content{
+        width: 100% !important;
+        flex:1;
+        
+    }
+    .image{
+        width: 90% !important ;
+        flex:2;
+    }
+    .btn-custom{
+        height: 8% !important;
+        width: 12% !important;
+        font-size: 0.9vw !important;
+        padding:0.5% 0;
+    }
+    .hero-title{
+        font-size: 6vw !important;
+    }
+    .hero-subtitle{
+        font-size: 2vw !important;
+    }
 }
 
 .content{
-    padding-top: 10%;
     padding-left: 7%;
-    max-width: 60% ;
+    width: 60% ;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .hero-title {
     font-size: 5vw;
     font-weight: 500;
-    width: 84%;
+    width: 90%;
     display:flex;
+    flex-direction: row;
     white-space: break-spaces;
     font-family: font1;
     padding: 0;
@@ -45,7 +78,7 @@ src: url(../assets/fonts/SofadiOne-Regular.ttf);
 
 .hero-subtitle {
 font-size: 1.2vw;
-margin-bottom: 30px;
+margin-bottom: 3%;
 font-family: font3;
 text-align: justify;
 width: 80%;
@@ -53,13 +86,14 @@ width: 80%;
 }
 
 .btn-custom {
-margin-top: 0;
 background-color: transparent;
 border-color: #fff;
-border-radius: 10px;
+border-radius: 12px;
 color: #ffffff;
-font-size: 1rem;
+font-size: 0.8vw;
 transition: background-color 0.3s;
+height: 8%;
+width: 20%;
 }
 
 .btn-custom:hover {
@@ -70,7 +104,8 @@ border-color: #f28ea8;
 .image{
     display: flex;
     justify-items: center;
-    max-width: 40% ;
+    width: 50%;
+    height: 100%;
 }
 
 .about-section .row{
@@ -103,10 +138,10 @@ border-color: #f28ea8;
     white-space: nowrap;
     overflow: hidden;
     display: block;
-    animation: typing 4s steps(10, end) infinite forwards;
+    animation: typing 3s steps(11, end) infinite forwards;
 }
 
 @keyframes typing {
     0%{width: 0ch;}
-    50%{width: 11ch;}
+    50%{width: 10ch;}
 }
