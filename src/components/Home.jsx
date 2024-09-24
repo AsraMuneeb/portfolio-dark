@@ -18,7 +18,7 @@ const Home = () => {
           <a href="#projects" className="btn btn-custom">See My Work </a>
         </Col>
         <Col  className='image'>
-        <img src={img2} className='image2'alt="" />
+        <img src={img2} className='image2' />
         </Col>
       </Row>
     </Container>
