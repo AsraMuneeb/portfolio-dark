@@ -29,12 +29,29 @@ src: url(../assets/fonts/SofadiOne-Regular.ttf);
     height: 75%;
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
     margin: auto;
     padding-top: 3%;
 }
 
+@media (max-width: 700px) {
+  .row-contact{
+    flex-direction: column !important;
+    flex-flow: column !important;
+  }
+  .col-form{
+    flex:1;
+    height:50%;
+  }
+  .col-gif{
+    flex:1;
+  }
+  
+
+}
+
 .col-form{
-    max-width: 100% ;
+    flex:1;
     height: 100%;
 }
 
@@ -47,8 +64,7 @@ src: url(../assets/fonts/SofadiOne-Regular.ttf);
 }
 
 .col-gif{
-    width: 50%;
-    height: 100%;
+    flex:1;
     position: relative;
 }
 

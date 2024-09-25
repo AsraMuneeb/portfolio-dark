@@ -25,6 +25,7 @@
     position: relative;
     top: 15%;
     display: flex;
+    flex-direction: row;
 }
 
 .circle1{
@@ -54,11 +55,9 @@
     opacity: 0.7;
 }
 
-
-
 .circle2{
     position: absolute;
-    right:-6%;
+    right:0;
     top:2%;
     width: 2%;
     height: 30%;
@@ -66,34 +65,70 @@
 }
 
 .col2 {
-    flex-basis: 35%; /* Set the initial width */
-    flex-grow: 1;    /* Allow it to grow and take remaining space */
-    min-width: 35%; /* Ensure it doesn't shrink too small */
+    /* flex-basis: 30%; 
+    width: 30%;  */
     display: flex;
     flex-wrap: wrap;
-    height: 80%;
+    align-content: flex-end;
     position: relative;
-    top:22%;
-    left: 5%;
+    left: 6%;
+    padding-bottom: 3%;
+    flex:1.5;
 }
 
 .col1 {
-    flex-basis: 35%; /* Set the initial width */
-    width: 35% ;
-    height: 100%;
+    /* flex-basis: 28%; 
+    width: 28% ; */
+    height: 85%;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    right:3%;
+    right: 6%;
+    bottom:-5%;
+    flex:1;
 }
 
+@media (max-width:800px) {
+    .row1{
+        flex-direction: column;
+        flex-flow: column;
+        align-items: center;
+    }
+    .col1{
+        flex:1;
+        width: 65%;
+        top:0;
+       
+    }
+    .col2{
+        flex:1;
+        width: 85% !important;
+        z-index: 10;
+    }
+    
+  .frame1::before{
+    right: -3% !important;
+    top: 17%;
+    height: 83% !important;
+    width: 83% !important;
+
+  }
+  .title h1{
+    top: 50% !important;
+    font-size: 7vw !important;
+    left: 45%;
+
+  }
+}
 
 .row1 {
-    width: 90%;
+    width: 100%;
     padding: 0;
     margin: auto;
-    height: 85%;
+    height: 100%;
+
+    
 }
 
 
@@ -108,7 +143,7 @@
     position: absolute;
     z-index: 10;
     line-height: 0.9;
-    right: 32%;
+    right: 28%;
     top: 5%;
     width: fit-content;
 

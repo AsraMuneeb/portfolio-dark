@@ -100,7 +100,8 @@
     object-fit: fill;
     padding:0;
   }
-  
+
+
   .card__overlay {
     position: absolute;
     bottom: 0;

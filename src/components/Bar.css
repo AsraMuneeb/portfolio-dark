@@ -1,10 +1,29 @@
 .skill {
-  width: 25%;
+  width: 23%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  height: 45%;
+  height: 35%;
   align-items: center;
+}
+
+@media (max-width: 800px) {
+  .skill{
+    width: 25%;
+    height: 50%;
+    justify-content: center;
+
+  }
+  .circular-progress {
+    --size: 70px !important; /* Initial size */
+    --stroke-width: 15px !important; /* Initial stroke width */
+  }
+  .skill-name {
+    top: 8% !important;
+  }
+  .skill-name p {
+    font-size: 2vw !important;
+  }
 }
 
 .skill-name {
