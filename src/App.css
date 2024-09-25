@@ -27,7 +27,7 @@
 .about{
   width: 100%;
   height: 100vh;
-  background-color: #0a0610b5;
+  background-color: white;
   border-top-left-radius: 200px;
 }
 
@@ -36,14 +36,14 @@
   width: 100%;
   height: 100vh;
   display: inline-block;
-  background-color: #0a0610b5;
+  background-color: white;
 
 }
 
 .projects{
   width: 100%;
   height: 100vh;
-  background: #0a0610b5;
+  background: white;
   border-bottom-right-radius: 200px;
   
 }

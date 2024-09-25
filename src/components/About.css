@@ -144,7 +144,7 @@
 } 
 
 .row-about h2 {
-  background: -webkit-linear-gradient(top, #eaadb5, #f1edef);
+  background: -webkit-linear-gradient( black, #271638, #a84d76);
   background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 6vw;

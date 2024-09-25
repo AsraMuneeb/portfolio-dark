@@ -22,14 +22,13 @@ const About = () => {
       <img src={waves1} className='prop5' alt="" />
       <video className='web' src={web} alt="" loop autoPlay muted/>
       <Row className='row-about'>
+      <h2>About <br />Me</h2> 
       <Col className='vid' >
           {/* <video src={profile} loop autoPlay muted></video> */}
             <img src={profile3} alt="" />
             <div className="frame"></div>
         </Col>
         <Col className='about-content'>
-        <h2>About Me</h2> 
-
           <p>
             I am a passionate web developer skilled in both front-end and back-end technologies.
             My expertise lies in creating immersive digital experiences that seamlessly merge creativity with functionality.
