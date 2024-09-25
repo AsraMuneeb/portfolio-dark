@@ -4,9 +4,10 @@ import { Container, Row, Col } from 'react-bootstrap';
 import web from '../assets/web.gif'
 import arrow1 from '../assets/arrow.png'
 import cross from '../assets/cross.png'
-import prop4 from '../assets/prop4.png'
-import circles from '../assets/circles.png'
+import sqr1 from '../assets/sqr1.png'
+import circle from '../assets/scircle.png'
 import waves1 from '../assets/waves1.png'
+
 import profile3 from '../assets/profile3.jpg'
 
 
@@ -16,8 +17,8 @@ const About = () => {
   return (
     <Container id="about" className="about-section py-5">
       <img src={arrow1} className='prop1' alt="" />
-      <img src={circles} className='prop3' alt="" />
-      <img src={prop4} className='prop4' alt="" />
+      <img src={circle} className='prop3' alt="" />
+      <img src={sqr1} className='prop4' alt="" />
       <img src={cross} className='prop2' alt="" />
       <img src={waves1} className='prop5' alt="" />
       <img className='web' src={web} alt=""/>

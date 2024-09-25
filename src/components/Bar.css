@@ -63,7 +63,7 @@
   --size: 110px; /* Increase size on hover */
   --stroke-width: 16px; /* Increase stroke width on hover */
   overflow: visible;
-  filter: drop-shadow(0px 7px 14px rgba(238, 236, 239, 0.409)) drop-shadow(0px 5px 5px rgba(246, 244, 248, 0.354)); 
+  filter: drop-shadow(0px 7px 14px rgba(226, 71, 128, 0.409)) drop-shadow(0px 5px 5px rgba(237, 122, 153, 0.354)); 
 }
 
 

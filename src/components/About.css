@@ -26,7 +26,27 @@
     position: relative;
     overflow: hidden;
   }
+
+  .prop1{
+    width: 6%;
+    height: 12%;
+    position: absolute;
+    right: 14%;
+    top: 25%;
+    z-index: 99;
+    opacity: 1;
+  }
   
+  .frm2{
+    width: 14%;
+    height: 40%;
+    position: absolute;
+    right: -7%;
+    bottom: -5%;
+    z-index: 99;
+    opacity: 1;
+  }
+
 .prop2{
   width: 8%;
   height: 26%;
@@ -37,22 +57,16 @@
   opacity: 0.8;
 }
 
-.prop1{
-  width: 7%;
-  height: 12%;
-  position: absolute;
-  right: 15%;
-  top: 25%;
-}
+
 
 .prop4{
-  width: 6%;
-  height: 12%;
+  width: 8%;
+  height: 8%;
   position: absolute;
   left: 10%;
   top: 5%;
   z-index: 99;
-  opacity: 0.7;
+  opacity: 1;
 
 }
 
@@ -63,15 +77,15 @@
   right: -6%;
   bottom: 2%;
   z-index: 99;
-  opacity: 0.8;
+  opacity: 0.9;
 
 }
 
 .prop3{
-  width: 1.5%;
+  width: 10%;
   height: 18%;
   position: absolute;
-  right: 3%;
+  right: 0%;
   top: 5%;
   z-index: 99;
 }
@@ -127,7 +141,7 @@
   border-bottom-left-radius: 40%;
   border-bottom-right-radius: 40%;
   position: relative;
-  box-shadow: rgba(37, 14, 53, 0.3) 0px 19px 38px, rgba(30, 14, 49, 0.22) 0px 15px 12px;
+  box-shadow: rgba(226, 98, 147, 0.697) 0px 7px 29px 0px;
 } 
 
 .frame{

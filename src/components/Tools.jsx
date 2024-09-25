@@ -12,9 +12,9 @@ import pc1 from '../assets/pc1.png';
 import wind from '../assets/wind.png';
 import Bar from './Bar.jsx'
 import circle1 from '../assets/circle1.png';
-import sqr from '../assets/sqr.png';
-import cross2 from '../assets/cross2.png';
-import circle2 from '../assets/circle2.png';
+import sqr from '../assets/sqr2.png';
+import cross2 from '../assets/double.png';
+import circle2 from '../assets/clines.png';
 
 import './Tools.css'
 

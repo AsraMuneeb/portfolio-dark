@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
 import './Projects.css'
-import circle4 from '../assets/circle4.png'
-import circle from '../assets/circle.png'
+import circle4 from '../assets/fcircle.png'
+import circle from '../assets/single.png'
 import cross3 from '../assets/cross3.png'
-import square from '../assets/square.png'
+import square from '../assets/sqr1.png'
 import invent from '../assets/inventory.mp4'
 import logistics from '../assets/logistics.mp4'
 import tic from '../assets/tic.mp4'
