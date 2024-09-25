@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
 import './Projects.css'
-import web from '../assets/web.mp4'
 import circle4 from '../assets/circle4.png'
 import circle from '../assets/circle.png'
 import cross3 from '../assets/cross3.png'

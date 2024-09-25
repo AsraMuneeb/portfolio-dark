@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
 import { Container, Row, Col } from 'react-bootstrap';
-import web from '../assets/web.mp4'
+import web from '../assets/web.gif'
 import arrow1 from '../assets/arrow.png'
 import cross from '../assets/cross.png'
 import prop4 from '../assets/prop4.png'
@@ -20,7 +20,7 @@ const About = () => {
       <img src={prop4} className='prop4' alt="" />
       <img src={cross} className='prop2' alt="" />
       <img src={waves1} className='prop5' alt="" />
-      <video className='web' src={web} alt="" loop autoPlay muted/>
+      <img className='web' src={web} alt=""/>
       <Row className='row-about'>
       <h2>About <br />Me</h2> 
       <Col className='vid' >

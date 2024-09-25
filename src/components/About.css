@@ -123,8 +123,9 @@
 .vid img {
   width: 70%;
   height: 80%;
-  border-top-right-radius: 30%;
-  border-bottom-left-radius: 30%;
+  border-top-right-radius: 40%;
+  border-bottom-left-radius: 40%;
+  border-bottom-right-radius: 40%;
   position: relative;
   box-shadow: rgba(37, 14, 53, 0.3) 0px 19px 38px, rgba(30, 14, 49, 0.22) 0px 15px 12px;
 } 
@@ -133,9 +134,10 @@
   background: transparent;
   width: 70%;
   height: 80%;
-  border-top-right-radius: 30%;
-  border-bottom-left-radius: 30%;
-  border-color:#954859 !important;
+  border-top-right-radius: 40%;
+  border-bottom-left-radius: 40%;
+  border-bottom-right-radius: 40%;
+  border-color:#b5677c !important;
   position: absolute;
   z-index: 0;
   border: 4px solid;
@@ -144,7 +146,7 @@
 } 
 
 .row-about h2 {
-  background: -webkit-linear-gradient( black, #271638, #a84d76);
+  background: -webkit-linear-gradient( left, rgb(255, 255, 255), #f7acb7);
   background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 6vw;
@@ -160,7 +162,7 @@
 
 .about-content p {
   font-size: 1.5vw;
-  color: #555;
+  color: #ffffff;
   padding: 0;
   font-family: font3;
   text-align: justify;
@@ -184,7 +186,7 @@
 
 
 .web{
-  width: 20%;
+  width: 10%;
   height: 20%;
   display: inline;
   position: absolute;

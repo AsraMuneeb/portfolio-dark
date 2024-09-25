@@ -31,7 +31,7 @@
     font-size: 6vw;
     text-align: center;
     font-family: font1;
-    background: -webkit-linear-gradient( black, #a84d76);
+    background: -webkit-linear-gradient( left, rgb(255, 255, 255), #f7acb7);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     color: white;
@@ -68,7 +68,7 @@
   border-bottom-left-radius: 40px;
     overflow: hidden;
   border: 5px solid ;
-  border-color: #d37897;
+  border-color: #f7acb7;
   padding:0;
   text-decoration: none;
   opacity: 0;

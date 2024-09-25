@@ -27,7 +27,7 @@
 }
 
 .skill-name {
-  color: black;
+  color: rgb(247, 245, 245);
   position: relative;
   z-index: 10;
   top: 5%;
@@ -63,12 +63,12 @@
   --size: 110px; /* Increase size on hover */
   --stroke-width: 16px; /* Increase stroke width on hover */
   overflow: visible;
-  filter: drop-shadow(0px 7px 14px rgba(37, 14, 53, 0.409)) drop-shadow(0px 5px 5px rgba(30, 14, 49, 0.354)); 
+  filter: drop-shadow(0px 7px 14px rgba(238, 236, 239, 0.409)) drop-shadow(0px 5px 5px rgba(246, 244, 248, 0.354)); 
 }
 
 
 .circular-progress .bg {
-  stroke: rgb(236, 220, 224); /* Semi-transparent background stroke */
+  stroke: rgb(23, 9, 31); /* Semi-transparent background stroke */
   fill: white;
   stroke-width: var(--stroke-width);
 }

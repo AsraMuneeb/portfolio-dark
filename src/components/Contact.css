@@ -71,7 +71,9 @@ src: url(../assets/fonts/SofadiOne-Regular.ttf);
 .col-gif h1{
   font-family: font1;
   font-size: 5vw;
-  color: #eaadb5;
+  background: -webkit-linear-gradient( left, rgb(255, 255, 255), #f7acb7);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
   padding-left: 10%;
 }
 

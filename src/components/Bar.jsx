@@ -1,5 +1,4 @@
 import React, { useEffect, useRef, useState } from 'react';
-import bg1 from '../assets/bg1.jpg';
 import './Bar.css';
 
 const Bar = ({ prog, skillName, strImage }) => {
@@ -45,23 +44,14 @@ const Bar = ({ prog, skillName, strImage }) => {
         preserveAspectRatio="none"
         fill="transparent"
       >
-        <defs>
-          <pattern
-            id="imgpattern"
-            patternUnits="userSpaceOnUse"
-            width={110}
-            height={110}
-          >
-            <image
-              href={bg1}
-              x="0"
-              y="0"
-              width={110}
-              height={110}
-              preserveAspectRatio="none"
-            />
-          </pattern>
-        </defs>
+<defs>
+    <linearGradient id="linearGradient" x1="0%" y1="0%" x2="110%" y2="0%">
+      <stop offset="0%" style={{ stopColor: '#f7acb7', stopOpacity: '1' }} />
+      <stop offset="30%" style={{ stopColor: '#cd5b88', stopOpacity: '1' }} />
+      <stop offset="100%" style={{ stopColor: '#f7acb7', stopOpacity: '1' }} />
+
+    </linearGradient>
+  </defs>
         <circle
           className="bg"
           cx={size / 2}
@@ -78,7 +68,7 @@ const Bar = ({ prog, skillName, strImage }) => {
           cy={size / 2}
           r={radius}
           strokeWidth={strokeWidth}
-          stroke="url(#imgpattern)"
+          stroke="url(#linearGradient)"
           fill="none"
           strokeDasharray={`${dash} ${circumference - dash}`}
         />
