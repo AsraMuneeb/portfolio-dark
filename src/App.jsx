@@ -41,8 +41,10 @@ function App() {
 
   return (
     <div className='app'>
-      <img src={frm2} className='frm2' alt="" />
+      {/* <img src={frm2} className='frm2' alt="" /> */}
       <img src={frm1} className='frm1' alt="" />
+      <img src={frm1} className='frm11' alt="" />
+      <img src={frm2} className='frm2' alt="" />
 
         <NavBar activeSection={activeSection}></NavBar>
       <section className='home' id='home'>
