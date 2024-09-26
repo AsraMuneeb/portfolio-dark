@@ -48,7 +48,7 @@
 }
 
 .proj-row{
-    height: 60% !important;
+    height: 60% ;
     width: 85% ;
     position: relative;
     padding: 0;
@@ -58,6 +58,26 @@
     justify-content: space-evenly;
     flex-direction: row;
     align-items: flex-end;
+}
+
+@media (max-width:700px) {
+  .proj-row{
+    height: 80%;
+    flex-wrap: wrap;
+    top:10%;
+  }
+  .card{
+    height: 40% !important;
+    width: 40% !important;
+    bottom: 0!important;
+  }
+  .h1-title{
+    padding:0;
+    width: fit-content;
+    position: relative;
+    width: 100%;
+
+  }
 }
 
 .card{
@@ -173,6 +193,7 @@
     left: 4%;
     bottom: 5%;
     opacity: 0.8;
+    z-index: 0;
   }
   
   .circle4{
@@ -183,7 +204,8 @@
   bottom: 5%;
     z-index: 99;
     opacity: 0.9;
-  
+    z-index: 0;
+
   }
   
   .square{
