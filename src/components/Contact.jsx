@@ -18,19 +18,17 @@ const Contact = () => {
   });
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState(false);
-  const [isHidden, setIsHidden] = useState(false); // State to manage fading out
+  const [isHidden, setIsHidden] = useState(false); 
 
-  // Close the thank-you card when clicked anywhere else
   const handleClickOutside = () => {
     setIsHidden(true);
     setTimeout(() => {
-      setIsHidden(true); // Trigger fading out and sliding up
+      setIsHidden(true); 
       
-      // Fully remove the card after the transition completes
       setTimeout(() => {
-        setSubmitted(false); // Fully remove thank-you card after fade-out
-        setIsHidden(false);  // Reset hidden state for future use
-      }, 500); // Wait for slide-out and fade-out to complete (matches CSS transition time)
+        setSubmitted(false); 
+        setIsHidden(false);  
+      }, 500); 
       
     }, 2000); }
 
@@ -45,7 +43,6 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     
-    // Show thank-you card instantly
     setSubmitted(true);
 
     try {
@@ -79,12 +76,10 @@ const Contact = () => {
 
   useEffect(() => {
     if (submitted) {
-      // Add click event listener to the document when thank-you card is shown
       document.addEventListener('click', handleClickOutside);
     }
 
     return () => {
-      // Clean up event listener when component unmounts or thank-you card disappears
       document.removeEventListener('click', handleClickOutside);
     };
   }, [submitted]);

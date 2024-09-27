@@ -40,19 +40,22 @@ src: url(../assets/fonts/SofadiOne-Regular.ttf);
     flex-flow: column !important;
   }
   .col-form{
-    flex:1;
-    height:50%;
+    height: 50% !important;
   }
   .col-gif{
-    flex:1;
+    height: 50% !important;
   }
-  
+  .form-group {
+    margin-bottom: 15px; /* Reduce margin for smaller screens */
+  }
+
 
 }
 
+
+
 .col-form{
-    flex:1;
-    height: 100%;
+flex:1;
 }
 
 .gif3{
@@ -96,7 +99,7 @@ src: url(../assets/fonts/SofadiOne-Regular.ttf);
   }
   
   .form-group {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
   text-align: left;
   width: 100%;
   }
